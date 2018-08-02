@@ -1,0 +1,169 @@
+// NOT RESPONDING: cn.douyuu.miqu (pid 24706)
+ANR in cn.douyuu.miqu (cn.douyuu.miqu/com.egoodfate.interest.ui.ShowBigImagePagerActivity)
+PID: 24706
+Reason: Input dispatching timed out (cn.douyuu.miqu/com.egoodfate.interest.ui.ShowBigImagePagerActivity, Waiting because the touched window's input channel is not registered with the input dispatcher.  The window may be in the process of being removed.)
+Load: 6.6 / 5.92 / 6.18
+CPU usage from 354030ms to 0ms ago (2018-07-26 16:54:45.295 to 2018-07-26 17:00:39.325):
+  13% 1601/system_server: 7.9% user + 5.7% kernel / faults: 14621 minor 1 major
+  6.8% 559/surfaceflinger: 3.5% user + 3.2% kernel / faults: 689 minor
+  3.5% 452/logd: 2.2% user + 1.2% kernel / faults: 24 minor
+  3.3% 416/msm-core:sampli: 0% user + 3.3% kernel
+  1.2% 20291/adbd: 0.2% user + 0.9% kernel / faults: 55706 minor
+  1.5% 1828/com.android.systemui: 1.1% user + 0.3% kernel / faults: 13385 minor
+  1.2% 330/irq/171-tsens_i: 0% user + 1.2% kernel
+  1% 23449/kworker/u16:0: 0% user + 1% kernel
+  0.7% 23559/kworker/u16:6: 0% user + 0.7% kernel
+  0.7% 346/mmc-cmdqd/0: 0% user + 0.7% kernel
+  0.7% 18590/kworker/u16:4: 0% user + 0.7% kernel
+  0.3% 1773/com.sohu.inputmethod.sogou.xiaomi: 0.2% user + 0.1% kernel / faults: 3000 minor
+  0.5% 558/servicemanager: 0.2% user + 0.3% kernel
+  0.4% 7/rcu_preempt: 0% user + 0.4% kernel
+  0.4% 106/system: 0% user + 0.4% kernel
+  0.3% 21790/kworker/6:3: 0% user + 0.3% kernel
+  0.3% 2102/com.android.phone: 0.2% user + 0.1% kernel / faults: 1134 minor
+  0.2% 335/cfinteractive: 0% user + 0.2% kernel
+  0.2% 24284/kworker/u17:9: 0% user + 0.2% kernel
+  0.2% 10/rcuop/0: 0% user + 0.2% kernel
+  0.2% 1789/sdcard: 0% user + 0.1% kernel
+  0.2% 475/perfd: 0% user + 0.1% kernel / faults: 549 minor
+  0.2% 4919/tcpdump: 0% user + 0.1% kernel
+  0.1% 29/rcuop/2: 0% user + 0.1% kernel
+  0.1% 45/rcuop/4: 0% user + 0.1% kernel
+  0.1% 717/jbd2/dm-1-8: 0% user + 0.1% kernel
+  0.1% 872/msm_irqbalance: 0% user + 0.1% kernel
+  0.1% 25095/cn.douyuu.miqu:channel: 0.1% user + 0% kernel / faults: 404 minor
+  0.1% 24816/cn.douyuu.miqu:xg_service_v3: 0.1% user + 0% kernel / faults: 478 minor
+  0% 568/mm-pp-dpps: 0% user + 0% kernel
+  0.1% 61/rcuop/6: 0% user + 0.1% kernel
+  0.1% 17432/kworker/u16:7: 0% user + 0.1% kernel
+  0.1% 21/rcuop/1: 0% user + 0.1% kernel
+  0.1% 2561/com.miui.whetstone: 0% user + 0% kernel / faults: 253 minor
+  0% 1//init: 0% user + 0% kernel
+  0.1% 2416/irq/180-408000.: 0% user + 0.1% kernel
+  0% 2458/com.miui.securitycenter.remote: 0% user + 0% kernel / faults: 675 minor
+  0% 25264/cn.douyuu.miqu:process1: 0% user + 0% kernel / faults: 151 minor
+  0% 25315/cn.douyuu.miqu:remote: 0% user + 0% kernel / faults: 158 minor
+  0% 8/rcu_sched: 0% user + 0% kernel
+  0% 3061/com.miui.powerkeeper:service: 0% user + 0% kernel / faults: 183 minor
+  0% 731/thermal-engine: 0% user + 0% kernel
+  0% 208/hwrng: 0% user + 0% kernel
+  0% 756/netd: 0% user + 0% kernel / faults: 815 minor
+  0% 2470/com.miui.daemon: 0% user + 0% kernel / faults: 518 minor 7 major
+  0% 58/ksoftirqd/6: 0% user + 0% kernel
+  0% 4599/com.tencent.mm: 0% user + 0% kernel / faults: 697 minor
+  0% 757/rild: 0% user + 0% kernel / faults: 2 minor
+  0% 37/rcuop/3: 0% user + 0% kernel
+  0% 53/rcuop/5: 0% user + 0% kernel
+  0% 2400/mcd: 0% user + 0% kernel
+  0% 2753/com.xiaomi.metoknlp: 0% user + 0% kernel / faults: 1 minor
+  0% 24974/kworker/1:2: 0% user + 0% kernel
+  0% 3/ksoftirqd/0: 0% user + 0% kernel
+  0% 2534/com.xiaomi.xmsf: 0% user + 0% kernel / faults: 491 minor 2 major
+  0% 4456/com.tencent.mm:push: 0% user + 0% kernel / faults: 158 minor
+  0% 23679/kworker/0:1: 0% user + 0% kernel
+  0% 2675/com.miui.home: 0% user + 0% kernel / faults: 15 minor
+  0% 46/rcuos/4: 0% user + 0% kernel
+  0% 69/rcuop/7: 0% user + 0% kernel
+  0% 24148/kworker/7:3: 0% user + 0% kernel
+  0% 42/ksoftirqd/4: 0% user + 0% kernel
+  0% 26/ksoftirqd/2: 0% user + 0% kernel
+  0% 34/ksoftirqd/3: 0% user + 0% kernel
+  0% 11/rcuos/0: 0% user + 0% kernel
+  0% 18/ksoftirqd/1: 0% user + 0% kernel
+  0% 20681/com.miui.analytics: 0% user + 0% kernel / faults: 118 minor
+  0% 26245/com.miui.systemAdSolution:ui: 0% user + 0% kernel / faults: 369 minor
+  0% 50/ksoftirqd/5: 0% user + 0% kernel
+  0% 82/kworker/u16:1: 0% user + 0% kernel
+  0% 345/irq/162-spdm_bw: 0% user + 0% kernel
+  0% 414/irq/72-ft5x46: 0% user + 0% kernel
+  0% 25927/com.miui.hybrid: 0% user + 0% kernel / faults: 17 minor
+  0% 2519/com.miui.contentcatcher: 0% user + 0% kernel / faults: 124 minor
+  0% 21412/com.duokan.reader: 0% user + 0% kernel / faults: 22 minor
+  0% 15/migration/0: 0% user + 0% kernel
+  0% 2067/.dataservices: 0% user + 0% kernel / faults: 9 minor
+  0% 23311/kworker/2:0: 0% user + 0% kernel
+  0% 30/rcuos/2: 0% user + 0% kernel
+  0% 62/rcuos/6: 0% user + 0% kernel
+  0% 428/kworker/6:1H: 0% user + 0% kernel
+  0% 737/zygote64: 0% user + 0% kernel / faults: 159 minor
+  0% 21051/android.ext.services: 0% user + 0% kernel / faults: 23 minor
+  0% 16/migration/1: 0% user + 0% kernel
+  0% 32/migration/3: 0% user + 0% kernel
+  0% 83/msm_watchdog: 0% user + 0% kernel
+  0% 423/ueventd: 0% user + 0% kernel
+  0% 464/vold: 0% user + 0% kernel / faults: 5 minor
+  0% 647/sensors.qcom: 0% user + 0% kernel / faults: 70 minor
+  0% 21880/kworker/4:1: 0% user + 0% kernel
+  0% 23920/android.process.media: 0% user + 0% kernel / faults: 79 minor
+  0% 24280/kworker/u17:1: 0% user + 0% kernel
+  0% 22/rcuos/1: 0% user + 0% kernel
+  0% 24/migration/2: 0% user + 0% kernel
+  0% 38/rcuos/3: 0% user + 0% kernel
+  0% 54/rcuos/5: 0% user + 0% kernel
+  0% 66/ksoftirqd/7: 0% user + 0% kernel
+  0% 70/rcuos/7: 0% user + 0% kernel
+  0% 336/irq/198-7824900: 0% user + 0% kernel
+  0% 415/kworker/2:1H: 0% user + 0% kernel
+  0% 427/kworker/0:1H: 0% user + 0% kernel
+  0% 541/healthd: 0% user + 0% kernel
+  0% 557/lmkd: 0% user + 0% kernel
+  0% 569/displayfeature: 0% user + 0% kernel
+  0% 719/kworker/1:1H: 0% user + 0% kernel
+  0% 720/kworker/3:1H: 0% user + 0% kernel
+  0% 735/hvdcp_opti: 0% user + 0% kernel
+  0% 747/cameraserver: 0% user + 0% kernel / faults: 72 minor
+  0% 755/mediaserver: 0% user + 0% kernel / faults: 3 minor
+  0% 2546/com.xiaomi.finddevice: 0% user + 0% kernel / faults: 35 minor
+  0% 3003/com.lbe.security.miui: 0% user + 0% kernel / faults: 12 minor
+  0% 11919/com.xiaomi.market: 0% user + 0% kernel / faults: 5 minor
+  0% 20468/com.android.quicksearchbox: 0% user + 0% kernel / faults: 6 minor
+  0% 20638/com.miui.systemAdSolution: 0% user + 0% kernel
+  0% 24000/kworker/3:2: 0% user + 0% kernel
+  0% 24279/kworker/u17:0: 0% user + 0% kernel
+  0% 24488/com.xiaomi.providers.appindex: 0% user + 0% kernel
+ +0% 26494/kworker/u17:2: 0% user + 0% kernel
+ +0% 26497/kworker/u17:3: 0% user + 0% kernel
+ +0% 26504/kworker/u16:2: 0% user + 0% kernel
+ +0% 26516/kworker/1:0: 0% user + 0% kernel
+ +0% 26526/mdss_fb0: 0% user + 0% kernel
+ +0% 26530/kworker/3:1: 0% user + 0% kernel
+ +0% 26535/kworker/2:1: 0% user + 0% kernel
+ +0% 26540/kworker/u16:3: 0% user + 0% kernel
+ +0% 26541/kworker/4:2: 0% user + 0% kernel
+ +0% 26545/kworker/5:0: 0% user + 0% kernel
+ +0% 26547/kworker/0:0: 0% user + 0% kernel
+ +0% 26567/com.android.commands.monkey: 0% user + 0% kernel
+ +0% 27321/cn.douyuu.miqu: 0% user + 0% kernel
+ +0% 27591/kworker/6:0: 0% user + 0% kernel
+ +0% 27752/kworker/7:1: 0% user + 0% kernel
+ +0% 28620/kworker/u17:4: 0% user + 0% kernel
+ +0% 28621/kworker/u17:5: 0% user + 0% kernel
+ +0% 28622/kworker/u17:6: 0% user + 0% kernel
+ +0% 28623/kworker/u17:7: 0% user + 0% kernel
+ +0% 28633/com.miui.cit: 0% user + 0% kernel
+ +0% 28687/kworker/0:3: 0% user + 0% kernel
+ +0% 29200/dumpsys: 0% user + 0% kernel
+9.9% TOTAL: 5.7% user + 3.4% kernel + 0.3% iowait + 0.2% irq + 0.1% softirq
+CPU usage from 2870ms to 3404ms later (2018-07-26 17:00:42.195 to 2018-07-26 17:00:42.729):
+  14% 1601/system_server: 1.7% user + 12% kernel
+    8.9% 1616/ActivityManager: 1.7% user + 7.1% kernel
+    1.7% 1601/system_server: 1.7% user + 0% kernel
+    1.7% 1644/system_server: 0% user + 1.7% kernel
+    1.7% 1704/system_server: 1.7% user + 0% kernel
+    1.7% 1706/SensorService: 1.7% user + 0% kernel
+  3.5% 416/msm-core:sampli: 0% user + 3.5% kernel
+  1.2% 3/ksoftirqd/0: 0% user + 1.2% kernel
+  1.2% 37/rcuop/3: 0% user + 1.2% kernel
+  1.2% 330/irq/171-tsens_i: 0% user + 1.2% kernel
+  1.2% 452/logd: 1.2% user + 0% kernel
+  1.2% 558/servicemanager: 1.2% user + 0% kernel
+  1.4% 2102/com.android.phone: 1.4% user + 0% kernel / faults: 2 minor
+    1.4% 2102/m.android.phone: 0% user + 1.4% kernel
+    1.4% 2115/Binder:2102_1: 1.4% user + 0% kernel
+  1.4% 4599/com.tencent.mm: 1.4% user + 0% kernel / faults: 7 minor
+  1.4% 4919/tcpdump: 0% user + 1.4% kernel
+  1.5% 23559/kworker/u16:6: 0% user + 1.5% kernel
+  1.6% 26540/kworker/u16:3: 0% user + 1.6% kernel
+  1.6% 28620/kworker/u17:4: 0% user + 1.6% kernel
+2.3% TOTAL: 0.4% user + 1.9% kernel
+
